@@ -52,7 +52,9 @@ export default function AuroraBackgroundDemo() {
       }
       else {
         toast.success('Wallet Connected');
-        router.push("/register");
+        setTimeout(() => {
+          router.push("/register");
+        }, 3000);
       }
     } catch (error) {
       toast.error("Error In Connecting Wallet")
@@ -77,7 +79,8 @@ export default function AuroraBackgroundDemo() {
         <button onClick={connectWallet} className="p-[3px] relative">
           <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
           <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
-            {isConnected ? `${userAddress.slice(0, 45)}` : 'Connect With Metamask'}
+            {isConnected
+              ? `${userAddress.slice(0, 12)}...${userAddress.slice(-13)}` : 'Connect With Metamask'}
           </div>
         </button>
       </motion.div>
