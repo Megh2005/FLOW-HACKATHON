@@ -21,17 +21,7 @@ export default function AuroraBackgroundDemo() {
 
   const connectWallet = async () => {
     if (!window.ethereum) {
-      toast('Wallet Not Found',
-        {
-          icon: '❌',
-          style: {
-            borderRadius: '40px',
-            background: '#000099', // Deep brown background
-            color: '#fff',
-            fontWeight: '600',
-          },
-        }
-      );
+      toast.error('Wallet Not Found');
       return;
     }
 
