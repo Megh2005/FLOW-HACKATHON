@@ -43,7 +43,7 @@ export default function AuroraBackgroundDemo() {
       else {
         toast.success('Wallet Connected');
         setTimeout(() => {
-          router.push("/register");
+          router.push("/about");
         }, 3000);
       }
     } catch (error) {
