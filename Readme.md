@@ -3,10 +3,11 @@
  <img src="https://i.imgur.com/AZ2iWek.png" alt="Project logo"></a>
 </p>
 <h3 align="center">Ownio - Flow</h3>
-
 <div align="center">
 
 [![Hackathon](https://img.shields.io/badge/Hackathon-Flow%20Asia%20Hackathon-blue.svg)](http://hackathon.url.com)
+
+**CONTRACT ADDRESS : `0xa9EEE7D1F2Cc2f12C4cae72a42829d3a168dEA4F`**
 
 </div>
 
@@ -76,6 +77,30 @@ Ownio addresses these challenges by providing a seamless platform that transform
   - **JAVASCRIPT**
   - **SOLIDITY**
   - **ETHERS JS**
+
+## .env Example
+
+***CLIENT***
+
+```env
+JWT=<PINATA_JWT_TOKEN>
+
+NEXT_PUBLIC_API_SECRET=<PINATA_API_SECRET>
+
+NEXT_PUBLIC_API_KEY=<PINATA_API_KEY>
+```
+
+***WEB3***
+
+```env
+FLOW_URL=https://testnet.evm.nodes.onflow.org
+
+NEXT_PUBLIC_TEST_API_URL=https://evm-testnet.flowscan.io/api/v2/transactions
+
+PRIVATE_KEY=<METAMASK_PRIVATE_KEY>
+
+CONTRACT_ADDRESS=<DEPLOYED_CONTRACT_ADDRESS>
+```
 
 
 ## 📖 User Manual
