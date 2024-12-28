@@ -204,7 +204,7 @@ export default function SellNFT() {
                                 <label className="block text-sm font-medium">Estimated Price (INR)</label>
                                 <input
                                     type="number"
-                                    className="w-full p-3 mt-2 bg-gray-700 text-gray-500 rounded-lg"
+                                    className="w-full p-3 mt-2 bg-gray-700 text-white rounded-lg"
                                     value={formParams.price}
                                     onChange={(e) =>
                                         updateFormParams({ ...formParams, price: e.target.value })
