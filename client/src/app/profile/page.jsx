@@ -115,7 +115,7 @@ export default function Profile() {
                                     </div>
                                 ) : (
                                     <div className="text-center text-2xl font-bold text-red-500 capitalize">
-                                        You don't have any NFT
+                                        Trying To Fetch NFTs
                                     </div>
                                 )}
                                 <button

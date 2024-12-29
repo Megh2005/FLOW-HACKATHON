@@ -4,7 +4,8 @@ import {
     FaHome,
     FaHandsHelping,
 } from "react-icons/fa";
-import { FaTicket, FaEthereum, FaCircleInfo } from "react-icons/fa6";
+import { FaEthereum, FaCircleInfo } from "react-icons/fa6";
+import { RiProfileFill } from "react-icons/ri";
 
 import Link from "next/link";
 
@@ -50,13 +51,13 @@ const Navbar = () => {
                         </span>
                     </Link>
                     <Link
-                        href="/verify"
+                        href="/profile"
                         className={`relative group hover:text-yellow-900`}
-                        onClick={() => handleLinkClick("profile")}
+                        onClick={() => handleLinkClick("home")}
                     >
-                        <FaTicket className="inline-block mr-2" />
+                        <RiProfileFill className="inline-block mr-2" />
                         <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 text-xs text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                            Verify
+                            Profile
                         </span>
                     </Link>
                     <Link
