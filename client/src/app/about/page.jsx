@@ -15,7 +15,7 @@ export default function WordPullUpDemo() {
     }
     
     return (
-        <div className="flex flex-col items-center justify-center h-screen text-center">
+        <div className="flex flex-col items-center justify-center h-screen text-center absolute top-0 z-[-2] w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
             <h1 className="text-4xl font-extrabold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent animate-gradient">
                 About Us
             </h1>

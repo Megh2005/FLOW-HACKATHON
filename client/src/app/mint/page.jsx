@@ -133,7 +133,6 @@ export default function SellNFT() {
             const transactionPromise = contract.createToken(metadataURL, price);
             toast.promise(transactionPromise, {
             loading: 'Creating NFT...',
-            success: 'NFT Created Successfully',
             error: 'Error creating NFT',
             });
 
@@ -170,9 +169,6 @@ export default function SellNFT() {
 
     return (
         <div className="relative min-h-screen bg-gradient-to-r from-black to-gray-800 text-white">
-            {/* Background Blur */}
-
-            {/* Main Content */}
             <div className="relative z-10 flex justify-center pt-30 items-center h-full">
                 {isConnected ? (
                     <div className="w-full mt-20 max-w-2xl p-8 bg-gray-800 bg-opacity-80 rounded-lg shadow-lg backdrop-blur-md">

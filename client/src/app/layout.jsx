@@ -1,8 +1,9 @@
-import { Anton, Roboto_Slab } from 'next/font/google'
+import { Roboto_Slab } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from 'next-themes'
 import { Toaster } from 'react-hot-toast'
 import { WalletContextProvider } from '@/context/wallet'
+import Navbar from './components/Nvbar'
 
 const inter = Roboto_Slab({ weight:["400"], subsets: ['latin'] })
 
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
             defaultTheme="dark"
             enableSystem
             disableTransitionOnChange>
+              <Navbar/>
             {children}
             <Toaster />
           </ThemeProvider>
