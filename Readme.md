@@ -104,3 +104,31 @@ CONTRACT_ADDRESS=<DEPLOYED_CONTRACT_ADDRESS>
 
 
 ## 📖 User Manual
+
+### Telegram Bot
+
+- ***Configure Telegram Web in your browser by visiting [this video](https://youtu.be/y0CxYZwochY?feature=shared)***
+
+- ***Paste this [url](https://t.me/OwnioFlowBot/OwnioFlow) in your browser & hit `Cancel` when pop-up appears***
+
+- ***Click on the `OPEN IN WEB` button to run the bot***
+
+- ***Start the bot by clicking on the `LAUNCH` button on pop-up***
+
+- ***You can interact with the bot after connecting wallet having flow tokens***
+
+- ***Make sure to follow our in-app detailed user [manual](https://flow-hackathon-nu.vercel.app/manual)***
+
+- ***You can also visit our [official documentation](https://shorturl.at/fYJBL)***
+
+### Web App
+
+- ***Visit our publicly available [web app](https://flow-hackathon-nu.vercel.app)***
+
+- ***Connect your wallet having flow testnet tokens***
+
+- ***You can now interact with the web app to mint NFTs***
+
+- ***Make sure to follow our in-app detailed user [manual](https://flow-hackathon-nu.vercel.app/manual)***
+
+- ***You can also visit our [official documentation](https://shorturl.at/fYJBL)***
