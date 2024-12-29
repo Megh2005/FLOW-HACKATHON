@@ -107,7 +107,7 @@ CONTRACT_ADDRESS=<DEPLOYED_CONTRACT_ADDRESS>
 
 ### Telegram Bot
 
-- ***Configure Telegram Web in your browser by visiting [this video](https://youtu.be/y0CxYZwochY?feature=shared)***
+- ***Configure Telegram Web in your PC Browser by visiting [this video](https://youtu.be/y0CxYZwochY?feature=shared)***
 
 - ***Paste this [url](https://t.me/OwnioFlowBot/OwnioFlow) in your browser & hit `Cancel` when pop-up appears***
 
